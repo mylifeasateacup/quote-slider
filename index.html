@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>Quote Slider</title>
+</head>
+<body>
+     <div class="arrows prev"></div>
+
+<div class="wrapper" id="wrapper">
+
+  <p>All that is gold does not glitter,
+Not all those who wander are lost;
+The old that is strong does not wither,
+Deep roots are not reached by the frost.
+  </p>
+
+  <p>To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.</p>
+
+  <p>We accept the love we think we deserve.</p>
+
+  <ul class="dots-wrap">
+    <li class="dot"></li>
+    <li class="dot"></li>
+    <li class="dot"></li>
+  </ul>
+</div>
+
+
+<div class="arrows next"></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/simple-slider.js"></script>
+<script>SimpleSlider.init({
+     containerSelector: "#wrapper"
+});
+</script>
+</html>
